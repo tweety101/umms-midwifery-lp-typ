@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600" rel="stylesheet">
+  
+  <title>UMMS Landing page</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header nrw">
+      <div class="header__logo">
+          <img src="images/UM_CMG_PMS.png" alt="" class="header__logo-img">
+      </div>
+      
+      
+      <a class="header__button heading-2" href="tel:5555555555">
+        Call today to request an&nbsp;appointment<br>
+         410-553-2900</a>
+    </header>
+    
+    
+    <section class="hero nrw">
+        <img src="images/landingpage-hero-mobile.jpg" alt="" class="hero__mobile-img">
+        <img src="images/seperator.jpg" alt="seperator image" class="hero__mobile-sep">
+      
+      <div class="hero__box">
+        <div class="hero__box-header">
+          <img src="images/form-sperator.png" alt="small seperator" class="hero__box-sep">
+        </div>
+        <div class="hero__box-body">
+          <h1 class="hero__box-title heading-1">Feeling under<br> the weather?</h1>
+          <h5 class="hero__box-subtitle heading-5">Download your free<br> Guidelines to Good Health<br> and request an appointment.</h5>
+          <form action="#" method="POST" class="contactform">
+            <input type="text" name="first_name" id="" class="contactform__input" placeholder="First name">
+            <input type="text" name="last_name" id="" class="contactform__input" placeholder="Last name">
+            <input type="email" name="email" id="" class="contactform__input" placeholder="Email">
+            <input type="text" name="date_of_birth" id="dateofbirth" class="contactform__input" placeholder="Date of Birth"
+              onfocus="fieldFocus()">
+            <input type=" tel" name="phone" id="" class="contactform__input"
+              placeholder="Phone #">
+            <input type="text" name="zip_code" id="" class="contactform__input" placeholder="Zip code">
+            <div class="contactform__check">
+              <input type="checkbox" name="checked" id="checked" class="contactform__check-box">
+              <label for="checked" class="contactform__check-label">Request an appointment</label>
+            </div>
+            <button type="submit" class="contactform__button">Submit</button>
+          </form>
+
+        </div>
+
+
+
+      </div>
+    </section>
+    <div class="seperator">
+      <img src="images/seperator.jpg" alt="seperator image" class="seperator__img">
+    </div>
+    <div class="nrw-pd">
+        <section class="content">
+            <p class="content__p heading-3">Are you ready for cold and flu season? At University of Maryland Community Medical Group —
+              Primary Care, we are here to help you feel better fast. Our providers offer complete primary care services for
+              you and your family, including: </p>
+            <ul class="content__items">
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Check-ups
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Flu vaccinations
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Health screenings
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Treatment of short-term and long-term illnesses
+                </span>
+      
+              </li>
+            </ul>
+            
+            <p class="content__p heading-3">In sickness and in health, we have you covered. If you do need us, our goal is to make your
+              experience as easy and convenient as possible, so you can feel better fast. We offer:</p>
+            <ul class="content__items">
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Same-day appointments and extended hours available at some locations
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Secure online access to your health record, test results and more
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Email directly with your providers
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Most insurance plans are accepted
+                </span>
+      
+              </li>
+            </ul>
+            <h2 class="heading-1 content__title">Our Free Downloadable Guide</h2>
+            <p class="content__p heading-3">Download our free Guidelines for Good Health, which offers easy-to-follow tips for
+              maintaining a healthy lifestyle in partnership with your physician. In it, you’ll find:</p>
+            <ul class="content__items">
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Top 10 tips to stay healthy
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Preventative care calendar to keep you on track
+                </span>
+      
+              </li>
+              <li class="content__item">
+                <span class="content__item-inner heading-4">
+                  Guidelines for when you should go to your primary care provider<br> vs. urgent care vs. emergency room
+                </span>
+      
+              </li>
+            
+            </ul>
+            <p class="content__footer heading-6">University of Maryland Community Medical Group is a proud partner of the University of
+              Maryland Baltimore Washington Medical Center.
+            </p>
+          </section>
+          
+
+    </div>
+    <section class="home-video nrw">
+      <video class="home-video__video" poster="images/video-thumbnail.jpg" controls>
+        <source src="static/UMMC_FeelBetter_v02c.mp4" type="video/mp4">
+          
+          <p>Your browser doesn't support HTML5 video. Here is
+            a <a href="static/UMMC_FeelBetter_v02c.mp4">link to the video</a> instead.</p>
+      </video>
+
+    </section>
+    
+    
+    <section class="locations">
+      <h3 class="locations__heading nrw-pd">Make an appointment at one of our convenient locations by calling 410-553-2900</h3>
+      <div class="locations__grid nrw-pd">
+        <div class="locations__pair">
+            <div class="location">
+                <div class="location__icon-box">
+                  <svg aria-hidden="true" data-icon="map-marker-alt" class="location__icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                  </svg>
+                </div>
+                <h4 class="location__heading heading-2">
+                  Glen Burnie
+                </h4>
+                <h5 class="location__sub-heading heading-5">
+                  Primary Care
+                </h5>
+                <div class="location__address-box">
+                  <p class="location__address-text">7845 Oakwood Road<br> Suite 204<br>
+                    Glen Burnie, MD 21061</p>
+                  <a href="#" class="location__address-link">Get Directions</a>
+                </div>
+              </div>
+              <div class="location">
+                <div class="location__icon-box">
+                  <svg aria-hidden="true" data-icon="map-marker-alt" class="location__icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                  </svg>
+                </div>
+                <h4 class="location__heading heading-2">
+                  Hanover
+                </h4>
+                <h5 class="location__sub-heading heading-5">
+                  Primary Care
+                </h5>
+                <div class="location__address-box">
+                  <p class="location__address-text">
+                    7556 Teague Road<br> Suite 450<br>
+                    Hanover, MD 21076
+                  </p>
+                  <a href="#" class="location__address-link">Get Directions</a>
+                </div>
+              </div>
+        </div>
+        <div class="locations__pair">
+            <div class="location">
+                <div class="location__icon-box">
+                  <svg aria-hidden="true" data-icon="map-marker-alt" class="location__icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                  </svg>
+                </div>
+                <h4 class="location__heading heading-2">
+                  Millersville
+                </h4>
+                <h5 class="location__sub-heading heading-5">
+                  Primary Care and
+                  Adult&nbsp;and&nbsp;Senior&nbsp;Care
+                </h5>
+                <div class="location__address-box">
+                  <p class="location__address-text">
+                    8601 Veterans Highway<br>
+                    Suites 111 and 200<br>
+                    Millersville, MD 21108
+                  </p>
+                  <a href="#" class="location__address-link">Get Directions</a>
+                </div>
+              </div>
+              <div class="location">
+                <div class="location__icon-box">
+                  <svg aria-hidden="true" data-icon="map-marker-alt" class="location__icon" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                  </svg>
+                </div>
+                <h4 class="location__heading heading-2">
+                  Pasadena
+                </h4>
+                <h5 class="location__sub-heading heading-5">
+                  Primary Care and
+                  Adult&nbsp;and&nbsp;Senior&nbsp;Care
+                </h5>
+                <div class="location__address-box">
+                  <p class="location__address-text">
+                    3708 Mountain Road<br>
+                    Pasadena, MD 21122
+                  </p>
+                  <a href="#" class="location__address-link">Get Directions</a>
+                </div>
+              </div>
+        </div>
+        
+      </div>
+
+    </section>
+    
+    
+    <footer class="footer">
+      <div class="nrw-pd">
+        <p> &copy;2018 University of Maryland Community Medical Group. All Rights Reserved.&nbsp;<a href="#" class="footer__link">Notice
+            of Privacy Practices</a></p>
+      </div>
+     
+    </footer>
+    
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+  <script type="text/javascript">
+      const datefield = document.querySelector("#dateofbirth");
+      let datesupported = false;
+
+      document.body.onload = function () {
+          const test = document.createElement('input');
+          test.type = 'date';
+
+          if (test.type === 'date') {
+              datesupported = true;
+
+          }
+          else {
+
+             const picker = new Pikaday({ field: document.getElementById('dateofbirth') });
+
+     }
+  }
+      function fieldFocus() {
+          if (datesupported = true) {
+              datefield.type = 'date';
+          }
+
+      }
+
+      
+  </script>
+
+</body>
+
+</html>

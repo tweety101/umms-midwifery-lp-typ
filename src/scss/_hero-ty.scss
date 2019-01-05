@@ -1,0 +1,20 @@
+.hero-ty {
+
+    
+    height: 40rem;
+
+    @media (max-width: $bp-small) {
+        
+        background-image: none;
+        height: auto;
+        
+        
+    }
+
+    &__appt {
+        background-image: url("images/ty-appt-hero.jpg");
+    }
+    &__guide {
+        background-image: url("images/ty-guide-hero.jpg");
+    }
+}
