@@ -42,10 +42,10 @@
 
     &__button {
         flex: 0 0 4rem;
-        background-color: $color-highlight;
+        background-color: $color-primary;
         border-radius: .5rem;
         border: none;
-        color: #ffffff;
+        color: $color-background-dark;
         font-size: 2rem;
         font-weight: 600;
         letter-spacing: 0.01rem;
@@ -56,7 +56,7 @@
     }
 
     &__button:hover {
-        color: $color-highlight;
+        color: $color-background-dark;
         background-color: #ffffff;
     }
 

@@ -1,0 +1,44 @@
+.ty-images {
+
+    padding-bottom: 3rem;
+    display: flex;
+
+    &__box {
+        flex:1;
+    }
+
+    &__box:first-child {
+        padding-right: 1.5rem;
+    }
+
+    &__box:last-child {
+        padding-left: 1.5rem;
+    }
+
+    
+
+    &__img {
+        width: 100%;
+    }
+
+    &__img-mobile {
+        width: 100%;
+        display: none;
+    }
+    @media (max-width: $bp-small) {
+        padding-bottom: 0;
+        &__box:first-child,
+        &__box:last-child {
+            padding: 0;
+        }
+        flex-direction: column;
+        &__img-mobile {
+            display: block;
+        }
+        &__img {
+            display: none;
+        }
+
+    }
+
+}

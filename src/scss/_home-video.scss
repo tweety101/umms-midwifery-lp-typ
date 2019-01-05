@@ -2,15 +2,30 @@
     padding: 0 5rem 3rem 5rem;
     
     @media (max-width: $bp-small ) {
-       padding: 0 0 3rem 0;
+        padding: 0 0 0 0;
         
+     }
+
+     &__box {
+         max-width: 63rem;
+         max-height: 355px;
+         margin-left: 3rem;
+         @media (max-width: $bp-small ) {
+            margin: 0 auto;
+            
+         }
+
      }
 
     
     &__video {
 
-        max-width: 63rem;
+        
         width: 100%;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        
         
         @media (max-width: $bp-small ) {
             max-width: 100%;
@@ -18,4 +33,16 @@
          }
         
     }
+
+    &__video iframe {
+
+       
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+        
+    }
+
 }

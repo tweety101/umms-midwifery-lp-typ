@@ -1,12 +1,14 @@
 .hero {
     
 
-    background-image: url("images/landingpage-hero.jpg");
+    background-image: url("images/lp-guide-hero.jpg");
     background-position: 70% 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: stretch;
     padding: 0 6.5rem;
+    min-height: 607px;
+   
 
     @media (max-width: $bp-large) {
         
@@ -56,7 +58,24 @@
     }
 
     &__box-header {
-        flex: 0 0 2rem;
+        flex: 0 0 7rem;
+        background-color: $color-background-light;
+    }
+
+    &__box-top {
+        height: 7rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__box-cta {
+        margin: 0;
+        text-align: center;
+        color: $color-background-dark;
+        font-size: 1.8rem;
+        font-weight: 600;
+
     }
 
     &__box-body {
@@ -69,13 +88,14 @@
 
     &__box-sep {
         width: 100%;
-        height: 100%;
+        height: 1.7rem;
     }
 
     &__box-title {
         
         text-align: center;
         margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
  
     }
     &__box-subtitle {
