@@ -16,9 +16,17 @@
     
     <header class="hero nrw">
         <div class="header__logo">
-            <img src="images/UMCMG-WomensHealth-PMS.png" alt="" class="header__logo-img">
+            <picture class="header__logo-img">
+                <source media="(max-width: 499px)" srcset="images/UMCMG-WomensHealth-PMS-mobile.png">
+                <source media="(min-width: 500px)" srcset="images/UMCMG-WomensHealth-PMS.png">
+                <img src="images/UMCMG-WomensHealth-PMS.png" alt="UMMS Womens Health logo">
+              </picture>
         </div>
-        <img src="images/lp-guide-hero-mobile.jpg" alt="" class="hero__mobile-img">
+        <picture class="hero__mobile-img">
+          <source media="(max-width: 375px)" srcset="images/lp-guide-hero-mobile.jpg">
+          <source media="(min-width: 376px)" srcset="images/lp-guide-hero-ipad.jpg">
+          <img src="images/lp-guide-hero-ipad.jpg" alt="UMMS hero image">
+        </picture>
         <img src="images/seperator.png" alt="seperator image" class="hero__mobile-sep">
        
       <div class="hero__box">
@@ -43,7 +51,7 @@
             <input type="text" name="zip_code" id="" class="contactform__input" placeholder="Zip code">
             <div class="contactform__check">
               <input type="checkbox" name="checked" id="checked" class="contactform__check-box">
-              <label for="checked" class="contactform__check-label">Request a GYN appointment</label>
+              <label for="checked" class="contactform__check-label">Request an appointment</label>
             </div>
             <button type="submit" class="contactform__button">Submit</button>
           </form>
@@ -64,7 +72,7 @@
             <ul class="content__items">
               <li class="content__item">
                 <span class="content__item-inner heading-4">
-                    Certified nurse-midwives don’t just deliver babies. They provide health care to women during all stages of life, including annual well woman exams, screenings, prescribing medications, gynecologic care, healthy lifestyle counseling, and more.
+                    Certified nurse-midwives don’t just deliver babies. They provide health care to women during all stages of life, including annual well woman exams, screenings, prescribing medications, gynecologic care, healthy lifestyle counseling, and&nbsp;more.
                 </span>
       
               </li>

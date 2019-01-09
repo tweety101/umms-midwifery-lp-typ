@@ -16,9 +16,17 @@
     
     <header class="hero nrw">
         <div class="header__logo">
-            <img src="images/UMCMG-WomensHealth-PMS.png" alt="" class="header__logo-img">
+            <picture class="header__logo-img">
+                <source media="(max-width: 499px)" srcset="images/UMCMG-WomensHealth-PMS-mobile.png">
+                <source media="(min-width: 500px)" srcset="images/UMCMG-WomensHealth-PMS.png">
+                <img src="images/UMCMG-WomensHealth-PMS.png" alt="UMMS Womens Health logo">
+              </picture>
         </div>
-        <img src="images/lp-guide-hero-mobile.jpg" alt="" class="hero__mobile-img">
+        <picture class="hero__mobile-img">
+          <source media="(max-width: 375px)" srcset="images/lp-guide-hero-mobile.jpg">
+          <source media="(min-width: 376px)" srcset="images/lp-guide-hero-ipad.jpg">
+          <img src="images/lp-guide-hero-ipad.jpg" alt="UMMS hero image">
+        </picture>
         <img src="images/seperator.png" alt="seperator image" class="hero__mobile-sep">
        
       <div class="hero__box">
@@ -31,7 +39,7 @@
         <div class="hero__box-body">
             
           <h1 class="hero__box-title heading-1">Request an<br> appointment today </h1>
-          <h5 class="hero__box-subtitle heading-5">&nbsp;</h5>
+          
           <form action="#" method="POST" class="contactform">
             <input type="text" name="first_name" id="" class="contactform__input" placeholder="First name">
             <input type="text" name="last_name" id="" class="contactform__input" placeholder="Last name">
@@ -42,8 +50,7 @@
               placeholder="Phone #">
             <input type="text" name="zip_code" id="" class="contactform__input" placeholder="Zip code">
             <div class="contactform__check">
-              <input type="checkbox" name="checked" id="checked" class="contactform__check-box">
-              <label for="checked" class="contactform__check-label">Request a GYN appointment</label>
+              <br />
             </div>
             <button type="submit" class="contactform__button">Submit</button>
           </form>
@@ -59,7 +66,7 @@
     </div>
     <div class="nrw-pd">
         <section class="content">
-            <h2 class="heading-1 content__title">There’s more to our midwives. Experience the difference a midwife can make. </h2>
+            <h2 class="heading-1 content__title">There’s more to our midwives. Experience the difference a midwife can&nbsp;make. </h2>
             <p class="content__p heading-3">When you hear the word “midwife,” what comes to mind? A woman helping a mom-to-be deliver her baby? Well, that’s one definition of a midwife. But our midwives do so much more than deliver babies (although they are highly skilled at that too). They provide comprehensive care to women during all stages of life, from adolescence to their childbearing years and through menopause. Working side-by-side with our team of physicians, our midwives take the time to get to know you, so we can give you the personalized care you deserve. </p>
             <p class="content__p heading-3">Gynecologic Care</p>
             <ul class="content__items">
@@ -83,7 +90,7 @@
               </li>
               <li class="content__item">
                 <span class="content__item-inner heading-4">
-                    STD screening and treatment
+                    STD screening and&nbsp;treatment
                 </span>
       
               </li>

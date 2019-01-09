@@ -52,7 +52,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 38rem;
+    height: 36rem;
     margin: 0 2%;
 
     @media (max-width: $bp-small) {
@@ -64,7 +64,7 @@
     &__icon-box {
         padding: 2.5rem 3rem;
         background-color: $color-primary;
-        margin-bottom: 2.5rem;
+        
     }
 
     &__icon {
