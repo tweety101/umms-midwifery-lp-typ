@@ -28,6 +28,7 @@
         &__box:first-child,
         &__box:last-child {
             padding: 0;
+            margin-bottom: 1.5rem;
         }
         flex-direction: column;
         
