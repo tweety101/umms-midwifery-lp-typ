@@ -89,6 +89,7 @@
     width: 100%;
     max-width: 111rem;
     margin: 0 auto;
+    
 }
 
 .nrw-pd {
@@ -96,7 +97,7 @@
     max-width: 118rem;
 
     margin: 0 auto;
-    padding: 0 4rem;
+    
 
     @media (max-width: $bp-medium) {
         padding: 0 8%;
@@ -106,4 +107,17 @@
 .vertical-padding {
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+.main {
+    display: flex;
+    max-width: 115rem;
+    margin: 0 auto;
+    padding-top: 4rem;
+
+
+    @media (max-width: $bp-medium) {
+        flex-direction: column-reverse;
+        
+    }
 }

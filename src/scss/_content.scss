@@ -10,7 +10,7 @@
         }
         
     }
-    @media (max-width: $bp-small) {
+    @media (max-width: $bp-medium) {
         height: 0;
         
     }
@@ -41,6 +41,8 @@
     
     max-width: 90rem;
     padding-bottom: 3rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
     &__p {
         
         
@@ -82,7 +84,7 @@
 
     &__title {
         
-        margin-top: 4rem;
+        
         margin-bottom: 1.7rem;
         color: $color-secondary;
 
